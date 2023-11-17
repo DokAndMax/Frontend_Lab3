@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+}
+
+div {
+    overflow: auto;
+}
+
+.green {
+    background: #94f8b3;
+    float: left;
+    width: 30%;
+    height: 100%;
+}
+
+.blue {
+    background: #74d7f3;
+    height: 15%;
+}
+
+.yellow {
+    background: #f7f894;
+    height: 85%;
+}
+
+.orange {
+    background: #f8e2b0;
+    height: 100%;
+}
+
+.pink {
+    background: #f094f8;
+    float: right;
+    width: 25%;
+    height: 100%;
+}
