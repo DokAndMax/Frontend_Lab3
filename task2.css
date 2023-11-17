@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+}
+
+div {
+    overflow: auto;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.page, .footer, .content {
+    display: flex;
+    flex-grow: 1;
+}
+
+.page {
+    height: 85%;
+}
+
+.content {
+    flex-direction: column;
+}
+
+.footer {
+    height: 15%;
+}
+
+.green {
+    background: #94f8b3;
+    width: 30%;
+}
+
+.blue {
+    background: #74d7f3;
+    height: 15%;
+}
+
+.yellow {
+    background: #f7f894;
+    height: 85%;
+}
+
+.orange {
+    background: #f8e2b0;
+    width: 75%;
+}
+
+.pink {
+    background: #f094f8;
+    width: 25%;
+}
